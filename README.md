@@ -5,8 +5,8 @@
 ## Table of Contents
 
 - [Background](#background)
-- [Install](#Install)
-- [Further Reading](#Further Reading)
+- [Installation](#installation)
+- [Further Reading](#further-reading)
 
 ## Background
 This repo accompanies the following tech talk at The HX Project Lounge conference. It is designed only to encourage experiementation with Chrome Extension development and provides only the most basic examples. It contains:
