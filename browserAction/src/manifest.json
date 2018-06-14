@@ -20,19 +20,14 @@
     "page": "options.html",
     "open_in_tab": false
   },
-  "content_scripts": [
-    {
-      "matches": [
-        "http://*/*",
-        "https://*/*"
-      ],
-      "js": [
-        "scripts/contentscript.js"
-      ],
-      "run_at": "document_end",
-      "all_frames": false
-    }
-  ],
+  "content_scripts": [{
+    "matches": [
+      "http://*/*",
+      "https://*/*"
+    ],
+      "all_frames": true,
+      "js": ["./scripts/contentscript.js"]
+  }],
   "browser_action": {
     "default_icon": {
       "19": "icons/icon-16.png",

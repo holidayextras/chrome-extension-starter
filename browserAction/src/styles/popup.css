@@ -1,3 +1,9 @@
 #app {
     width: 200px;
 }
+
+#frog {
+    display: none;
+}
+
+a { font-size: 1.4em; }
