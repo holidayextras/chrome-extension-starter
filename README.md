@@ -5,8 +5,8 @@
 ## Table of Contents
 
 - [Background](#background)
-- [Install](#Installation)
-- [Further Reading](#Additional Reading Material)
+- [Install](#Install)
+- [Further Reading](#Further Reading)
 
 ## Background
 This repo accompanies the following tech talk at The HX Project Lounge conference. It is designed only to encourage experiementation with Chrome Extension development and provides only the most basic examples. It contains:
@@ -19,11 +19,11 @@ This type of extension appears in the toolbar of the browser next to the URL bar
 
 This type of extension appears in the broswer toolbar itself on certain sites as defined by the background script. This allows you to target just the sites you want to execute the extension behaviour on.
 
-## Installation
+## Install
 
 Clone this repo and then go to chrome://extensions/ and then Load Unpacked and navigate to the src/ folder of the extenxion and load it from source. The extension should appear in the browser.
 
-### Additional Reading Material
+### Further Reading
 
 https://developer.chrome.com/extensions/manifest
 
