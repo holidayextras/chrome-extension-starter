@@ -1,6 +1,6 @@
 # Chrome Extension Starter Repo
 
-> A Chrome extension that manipulates the requests to SBP websites, changing the domain and query string.
+> A Repo to make learning Chrome Extensions simple.
 
 ## Table of Contents
 
@@ -9,7 +9,11 @@
 - [Further Reading](#further-reading)
 
 ## Background
-This repo accompanies the following tech talk at The HX Project Lounge conference. It is designed only to encourage experiementation with Chrome Extension development and provides only the most basic examples. It contains:
+This repo accompanies the following tech talk at The HX Project Lounge conference:
+
+https://docs.google.com/presentation/d/1wonYMXPqXZE7_cfnnrf47jcxnA-Z0wg0XFq__b4nDPo/edit?usp=sharing
+
+It is designed only to encourage experiementation with Chrome Extension development and provides only the most basic examples. It contains:
 
 ## Extension Type A - A Browser Action Extension
 
@@ -17,7 +21,7 @@ This type of extension appears in the toolbar of the browser next to the URL bar
 
 ## Extension Type B - A Page Action Extension
 
-This type of extension appears in the broswer toolbar itself on certain sites as defined by the background script. This allows you to target just the sites you want to execute the extension behaviour on.
+This type of extension functionas as above but only appears active on certain sites as defined by the background script. This allows you to target just the sites you want to execute the extension behaviour on.
 
 ## Installation
 
