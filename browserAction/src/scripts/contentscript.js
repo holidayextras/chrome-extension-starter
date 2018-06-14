@@ -1,6 +1,9 @@
 chrome.extension.onMessage.addListener(function(message, sender, sendResponse) {
-    console.log('content script !!!!!!!!!!!!!!!')
     if(message.type === 'fireContentScript') {
-        alert('MEssage Received By DOM')
+        alert('Message Received By Page')
+        var btn = document.createElement("H1") 
+        var t = document.createTextNode("Here is a H1 injected by the Chrome Extension")      
+        btn.appendChild(t)
+        document.body.prepend(btn)
     }     
 })
