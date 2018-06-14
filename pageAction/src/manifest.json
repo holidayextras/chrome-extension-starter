@@ -1,8 +1,8 @@
 {
-  "name": "Type A",
+  "name": "Type B",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "A Browser Action Extension",
+  "description": "A Page Action Extension",
   "icons": {
     "16": "icons/icon-16.png",
     "128": "icons/icon-128.png"
@@ -11,15 +11,8 @@
     "page": "background.html"
   },
   "permissions": [
-    "tabs",
-    "storage",
-    "http://*/*",
-    "https://*/*"
+    "tabs"
   ],
-  "options_ui": {
-    "page": "options.html",
-    "open_in_tab": false
-  },
   "content_scripts": [
     {
       "matches": [
@@ -33,13 +26,13 @@
       "all_frames": false
     }
   ],
-  "browser_action": {
+  "page_action": {
     "default_icon": {
       "19": "icons/icon-16.png",
       "38": "icons/icon-32.png"
     },
-    "default_title": "Type A Chrome Extension Boilerplate",
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_title": "Type B Chrome Extension Boilerplate"
   }
 }
 
